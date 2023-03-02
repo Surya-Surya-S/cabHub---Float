@@ -1,0 +1,36 @@
+@media only screen and (max-width: 576px){
+/* banner_start */
+.banner{
+    padding-bottom: 34px;
+}
+.menu ul{
+    display: none;
+}    
+.toggle_btn{
+    display: block;
+}
+.dropdown_menu{
+    left: 2rem;
+    width: unset;
+}
+.banner-content h4{
+    font-size: 16px;
+}
+.banner-content h2{
+    font-size: 32px;
+}
+.banner-content p{
+    font-size: 8px;
+    letter-spacing: 4px;
+}
+/* banner_end */
+
+/* taxi_img */
+.taxi-car{
+    top: 43%;
+}
+.taxi{
+    width: 100%;
+}
+/* taxi_img */
+}
