@@ -8,10 +8,13 @@
 }    
 .toggle_btn{
     display: block;
+    z-index: 2;
+    position: fixed;
 }
 .dropdown_menu{
-    left: 2rem;
-    width: unset;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(4px);
 }
 .banner-content h4{
     font-size: 16px;
@@ -30,21 +33,21 @@
 
 /* taxi_img */
 .taxi-car{
-    top: 26%;
+    top: 28%;
 }
 .taxi1-img{
     width: 100%;
 }
 .tarrifs-cars{
-    top: 133%;
+    top: 142%;
     left: 50%;
 }
 .tarrifs-cars2{
-    top: 173%;
+    top: 192%;
     left: 50%;
 }
 .tarrifs-cars3{
-    top: 213%;
+    top: 235%;
     left: 50%;
 }
 /* taxi_img */

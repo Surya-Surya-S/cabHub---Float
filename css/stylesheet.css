@@ -65,6 +65,12 @@ body{
     padding: 6px 12px;
     display: inline-block;
 }
+.dropdown_menu a{
+    padding: 14px;
+}
+.dropdown_menu li:nth-child(6) a{
+    padding-bottom: 17px;
+}
 .menu li a:hover{
     background-color: #ffc61a;
     color: #000;
@@ -76,24 +82,27 @@ body{
     border-radius: 10px;
 }
 .toggle_btn{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     cursor: pointer;
     display: none;
+    margin: 3px -2px;
 }
 .dropdown_menu{
-    width: 300px;
+    width: 400px;
     height: 0;
     right: 20px;
-    top: 40px;
-    background-color: #ffc61a;
+    top: 0;
+    background-color: rgb(255 198 26 / 70%);
     backdrop-filter: blur(100px);
     overflow: hidden;
     position: absolute;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: height 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 1;
 }
 .dropdown_menu li{
     list-style: none;
+    text-align: center;
 }
 .dropdown_menu.open{
     height: auto;
