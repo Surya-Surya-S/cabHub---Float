@@ -76,7 +76,7 @@ body{
     border-radius: 10px;
 }
 .toggle_btn{
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
     display: none;
@@ -126,7 +126,7 @@ body{
 
 /* taxi-car */
 .taxi-car{
-    top: 58%;
+    top: 92%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -343,23 +343,17 @@ form.active input{
 .taxi1-img img{
     width: 100%;
 }
-.tarrifs-cars{
-    top: 158%;
-    right: 79%;
-    transform: translate(50%,50%);
+.tarrifs-cars, .tarrifs-cars2, .tarrifs-cars3{
+    top: 277%;
+    left: 21%;
+    transform: translate(-50%, -50%);
     position: absolute;
 }
 .tarrifs-cars2{
-    top: 158%;
-    right: 50%;
-    transform: translate(50%,50%);
-    position: absolute;
+    left: 50%;
 }
 .tarrifs-cars3{
-    top: 158%;
-    right: 21%;
-    transform: translate(50%,50%);
-    position: absolute;
+    left: 79%;
 }
 .tariffs-bg.active{
     background-color: #ffc61a;
