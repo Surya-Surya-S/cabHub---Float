@@ -27,13 +27,14 @@
     letter-spacing: 4px;
 }
 .taxi{
-    width: 100%;
+    width: 60%;
 }
 /* banner_end */
 
 /* taxi_img */
 .taxi-car{
-    top: 28%;
+    top: 32%;
+    left: 10%;
 }
 .taxi1-img{
     width: 100%;
