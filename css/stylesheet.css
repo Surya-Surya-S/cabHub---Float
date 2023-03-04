@@ -135,12 +135,13 @@ body{
 
 /* taxi-car */
 .taxi-car{
-    top: 42%;
-    left: 20%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
 }
 .taxi{
-    width: 50%;
+    width: 420px;
     margin: 0 auto;
 }
 .taxi img{
