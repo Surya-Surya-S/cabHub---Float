@@ -25,7 +25,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 /* banner-start */
-.banner{
+#banner{
     background-image: url("../images/banner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body{
 /* taxi-car */
 
 /* cab-service start */
-.cab-service{
+#cab-service{
     background-color: #ffc61a;
     padding: 110px 0 50px 0;
 }
@@ -278,7 +278,7 @@ form.active input{
 /* cab-service end */
 
 /* tariffs-start */
-.tariffs{
+#tariffs{
     background-color: #fff;
     padding: 62px 0;
 }
@@ -390,7 +390,7 @@ form.active input{
 /* tariffs-end */
 
 /* best-start */
-.best{
+#best{
     background-image: url("../images/best-banner.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -501,7 +501,7 @@ form.active input{
 /* best-end */
 
 /* download-start */
-.download-bcs{
+#download-bcs{
     background-color: #fff;
     padding: 60px 0 0 0;
 }
@@ -739,14 +739,14 @@ form.active input{
 /* ready-end */
 
 /* footer-start */
-.footer{
+#footer{
     background-image: url("../images/footer-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 0 20px 0;
 }
-.footer .container{
+#footer .container{
     overflow: hidden;
 }
 .footer-inner{
