@@ -135,7 +135,7 @@ body{
 
 /* taxi-car */
 .taxi-car{
-    top: 92%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -353,7 +353,7 @@ form.active input{
     width: 100%;
 }
 .tarrifs-cars, .tarrifs-cars2, .tarrifs-cars3{
-    top: 277%;
+    top: 174%;
     left: 21%;
     transform: translate(-50%, -50%);
     position: absolute;
