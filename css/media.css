@@ -9,7 +9,7 @@
 .toggle_btn{
     display: block;
     z-index: 2;
-    position: fixed;
+    position: absolute;
 }
 .dropdown_menu{
     left: 0;
